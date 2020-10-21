@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="css/xmlStyle.css"?>
+<Osobe>
+	<Osoba pol="M" usluga="slikanje">
+		<ime>Mihajlo</ime>
+		<prezime>Marinković</prezime>
+		<email>mihajlo@email.com</email>
+		<lozinka>123456789</lozinka>
+		<dogadjaji>
+			<dogadjaj>Punoletstvo</dogadjaj>
+		</dogadjaji>
+	</Osoba>
+	<Osoba pol="Z" usluga="snimanje">
+		<ime>Milica</ime>
+		<prezime>Petrović</prezime>
+		<email>milica@email.com</email>
+		<lozinka>123456789</lozinka>
+		<dogadjaji>
+			<dogadjaj>Krštenje</dogadjaj>
+		</dogadjaji>
+	</Osoba>
+	<Osoba pol="M" usluga="komplet">
+		<ime>Dragan</ime>
+		<prezime>Pavlović</prezime>
+		<email>dragan@email.com</email>
+		<lozinka>123456789</lozinka>
+		<dogadjaji>
+			<dogadjaj>Venčanje</dogadjaj>
+		</dogadjaji>
+	</Osoba>
+	<Osoba pol="M" usluga="snimanje">
+		<ime>Aleksa</ime>
+		<prezime>Vasiljević</prezime>
+		<email>aleksa@email.com</email>
+		<lozinka>123456789</lozinka>
+		<dogadjaji>
+			<dogadjaj>Punoletstvo</dogadjaj>
+		</dogadjaji>
+	</Osoba>
+	<Osoba pol="Z" usluga="slikanje">
+		<ime>Ana</ime>
+		<prezime>Ilić</prezime>
+		<email>ana@email.com</email>
+		<lozinka>123456789</lozinka>
+		<dogadjaji>
+			<dogadjaj>Venčanje</dogadjaj>
+		</dogadjaji>
+	</Osoba>
+</Osobe>

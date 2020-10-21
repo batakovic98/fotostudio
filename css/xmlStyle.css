@@ -1,0 +1,35 @@
+Osobe
+{
+	border:3px solid green;
+	margin:20px auto;
+	width:650px;
+	padding:10px;
+	background-color:#c2c2c2;
+	display:block;
+}
+
+Osoba
+{
+	background-color:#888;
+	display:block;
+	margin:20px 0px;
+}
+
+ime, prezime, email, lozinka, dogadjaj
+{
+	display:block;
+	margin:5px;
+}
+
+Osoba[pol="M"]
+{
+	border:2px solid red;
+	background-color:#0000ff;
+	color:#fff;
+}
+
+Osoba[pol="Z"]
+{
+	border:2px solid yellow;
+	background-color:#ff4447;
+}

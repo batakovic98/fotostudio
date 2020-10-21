@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#zaglavlje, #sredina{
+	width:100%;
+}
+
+#zaglavlje{
+	height:500px;
+	background-image:url(../images/photo.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#header{
+	width:800px;
+	height:50px;
+	background-color:rgba(211,94,35,0.8);
+	margin:auto;
+	border-radius:10px;
+	box-shadow:2px 2px 2px #5f6266;
+}
+
+#header nav ul{
+	list-style-type:none;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	
+}
+
+#header nav ul a{
+	text-decoration:none;
+	color:black;
+}
+
+#header nav ul li{
+	
+	padding:15px;
+	
+}
+
+#header nav ul li:hover{
+	background-color:rgb(249, 34, 34);
+	transition:1s;
+}
+
+#logo{
+	width:200px;
+	height:200px;
+	/*background-color:rgba(211,94,35,0.8);*/
+	background-image:url(../images/logoo.png);
+	margin:auto;
+}
+
+#sredina{
+	height:350px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	background-color:#c2c2c2;
+	padding:100px 0px;
+}
+
+#autor{
+	width:30%;
+	height:300px;	
+
+}
+
+#foto{
+	width:30%;
+	height:300px;
+
+}
+
+#tren{
+	width:30%;
+	height:300px;
+	
+}
+
+#autor, #foto, #tren{
+	border-radius:20px;
+	background-color:#c2c2c2;
+}
+
+.tekst{
+	width:100%;
+	height:50px;
+	background-color:rgba(211,94,35,0.8);
+	border-radius:10px;
+	box-shadow:2px 2px 2px #5f6266;
+}
+
+.tekst:hover{
+	transform:rotate(10deg);
+	transition:1s;
+}
+
+.tekst a{
+	text-decoration:none;
+	text-align:center;
+	padding:10px;
+	color:black;
+}
+
+#futer{
+	width:inherit;
+	height:80px;
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:45px;
+}
+
+#futer nav ul{
+	list-style-type:none;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	margin-top:30px;
+}
+
+#futer nav ul a{
+	text-decoration:none;
+	color:white;
+	margin-right:25px;
+}
+
+#futer nav ul li a:hover{
+	color:yellow;
+}
+
+.slika{
+	width:100%;
+	height:250px;
+	background-color:white;
+	border-radius:10px;
+	box-shadow:2px 2px 2px #5f6266;
+}
+#autor .slika{
+	background-image:url(../images/autor.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+#foto .slika{
+	background-image:url(../images/foto.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+#tren .slika{
+	background-image:url(../images/tren.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+#site{
+	width:20%;
+	height:30px;
+	color:white;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+#site a{
+	text-decoration:none;
+	color:white;
+}
+
+#site a:hover{
+	color:yellow;
+}
+
+#forma table{
+	background-color:#c2c2c2;
+}
+
+#forma h1{
+	padding-bottom:20px;
+}
+#forma tr td {
+	padding-bottom: 15px;
+}
+
+#forma .text-box{
+	margin-left:10px;
+	border-color:yellow;
+	border-radius:5px;
+	box-shadow:2px 2px 2px #5f6266;
+	
+}
+
+#forma .text-box:focus{
+	border-color:red;
+}
+
+#forma .lista:focus{
+	border-color:red;
+}
+
+#forma .lista{
+	margin-left:10px;
+	border-color:yellow;
+	border-radius:5px;
+	box-shadow:2px 2px 2px #5f6266;
+}
+
+.dugme{
+	width:80px;
+	border-radius:5px;
+	border-color:yellow;
+	box-shadow:2px 2px 2px #5f6266;
+	margin-left:20px;
+}
+
+.dugme:hover{
+	background-color:#f49242;
+	cursor:grab;
+}
+
+#pretraga{
+	float:right;
+	margin-right:20px;
+	margin-top:30px;
+}
+
+#pret{
+	border-radius:5px;
+	border-color:orange;
+}
+
+#pret:focus{
+	border-color:red;
+}
+
+#mojTekst{
+	width:350px;
+	height:200px;
+}
+
+#mojaFotka{
+	width:300px;
+	height:400px;
+	background-image:url(../images/ja.jpg);
+	background-size:cover;
+	border-radius:10px;
+}
+
+#sredina1{
+	width:inherit;
+	height:600px;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+.slike1{
+	width:400px;
+	height:250px;
+	padding-top:25px;
+	border-radius:20px;
+	
+}
+
+#sredina1 .slike1:hover { 
+	transform: rotate(-5deg);
+}
+
+#sredina2{
+	width:inherit;
+	height:500px;
+	background-color:#c2c2c2;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+#sredina2{
+	background-color:#c2c2c2;
+	text-align:center;
+	padding-top:40px;
+	
+}
+
+#onama{
+	width:100%;
+	height:100px;
+}
+
+#logovanje{
+	width:100%;
+	height:300px;
+	background-color:#c2c2c2;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	
+}
+
+#login{
+	width:200px;
+	height:200px;
+	padding-right:50px;
+	padding-top:50px;
+	
+}
